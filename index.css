@@ -1,0 +1,58 @@
+* {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+.form {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: 3vh;
+  border-radius: 8px;
+  align-items: center;
+}
+.input {
+  width: 50vh;
+  height: 3vh;
+  border-radius: 5px;
+}
+
+.add {
+  background-color: teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  color: white;
+  text-align: center;
+  margin: 0 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tasks {
+  background-color: #eee;
+  padding: 2rem;
+  margin: 3rem auto;
+  border-radius: 8px;
+  width: 60%;
+}
+.tasks h2 {
+  text-align: center;
+}
+.inputs {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  /* text-align: center; */
+  justify-content: center;
+}
+.add-tasks {
+  text-align: center;
+}
+.done {
+  opacity: 0.4;
+  text-decoration-line: line-through;
+}
